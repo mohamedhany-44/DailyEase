@@ -9,7 +9,6 @@ Here is a **complete, polished `README.md`** ready to copy-paste into your GitHu
 ![Android](https://img.shields.io/badge/Android-Compose-brightgreen)
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blueviolet)
 ![Status](https://img.shields.io/badge/Status-Active-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
