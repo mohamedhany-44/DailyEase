@@ -60,7 +60,7 @@ fun TasksScreen(
                 onClick = onAddTask,
                 containerColor = MaterialTheme.colorScheme.primary,
                 elevation = FloatingActionButtonDefaults.elevation(6.dp),
-                modifier = Modifier.padding(bottom = 8.dp)
+                modifier = Modifier.padding(bottom = 12.dp)
             ) {
                 Icon(
                     painter = painterResource(R.drawable.ic_add),
@@ -71,9 +71,9 @@ fun TasksScreen(
         }
     ) { padding ->
         Column(
+
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding)
                 .background(
                     brush = Brush.verticalGradient(
                         colors = listOf(

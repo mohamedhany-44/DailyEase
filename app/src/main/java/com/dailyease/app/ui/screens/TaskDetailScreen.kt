@@ -341,24 +341,6 @@ fun TaskDetailScreen(
 
 @Preview(showBackground = true)
 @Composable
-fun TaskDetailScreenPreview() {
-    MaterialTheme {
-        TaskDetailScreen(
-            task = Task(
-                title = "Design Final Mockups",
-                description = "Final design review for the new landing page. Ensure all elements are properly aligned and responsive across screen sizes.",
-                priority = Priority.HIGH,
-                repeating = RepeatType.NONE,
-                dueDate = System.currentTimeMillis() + 86400000,
-                isCompleted = false
-            ),
-            onEdit = {}
-        )
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
 fun TaskDetailScreenCompletedPreview() {
     MaterialTheme {
         TaskDetailScreen(
