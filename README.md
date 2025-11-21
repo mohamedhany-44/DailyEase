@@ -1,8 +1,4 @@
-Here is a **complete, polished `README.md`** ready to copy-paste into your GitHub repo — including badges, sections, and perfect formatting:
-
----
-
-# **DailyEase – Advanced Daily Tasks Module**
+# **DailyEase – Advanced Daily Tasks & Habits Module**
 
 ### *Android · Kotlin · Jetpack Compose*
 
@@ -14,50 +10,87 @@ Here is a **complete, polished `README.md`** ready to copy-paste into your GitHu
 
 ## **Overview**
 
-**DailyEase** is a modern and fully interactive **Daily Tasks Module** built using **Jetpack Compose**, **Material 3**, and **MVVM architecture**.
-It provides a complete system for managing tasks with smooth interactions and a polished UI.
+**DailyEase** is a modern productivity toolkit powered by **Jetpack Compose**, featuring both an **Advanced Tasks System** and a complete **Daily Habits Dashboard**.
 
-This module is designed to be integrated easily into any Android app that needs advanced task management.
+This module includes habit tracking, analytics, smooth animations, and clean MVVM architecture, making it ready for integration into any Android application.
 
 ---
 
 ## **Features**
 
-### **Daily Task Management**
+---
+
+## 📝 **Daily Task Management**
 
 * Add tasks (title, description, time, priority, repeat)
 * Edit existing tasks
 * Delete with confirmation dialog
 * Mark tasks complete/incomplete
 * View full details via BottomSheet
+* Sorting & Filtering by time, priority, or completion
 
-### **Sorting & Filtering**
+---
 
-* Sort by:
+## 🔁 **Habits Dashboard (NEW)**
 
-  * Time
-  * Priority
-  * Completion
-* Filters:
+A complete habit-tracking experience:
 
-  * Today’s tasks
-  * Recurring tasks
-  * High priority only
+### **📌 Habit List**
 
-### **Modern UI & UX**
+* Display:
 
-* Gradient background (Light Purple → Light Blue)
-* Smooth animations
-* Priority badges (Low/Medium/High)
-* Empty state placeholder
-* Fully responsive layout for all screen sizes
+  * Habit name
+  * Daily target (e.g., 3/5)
+  * Progress bar
+  * **(+1)** progress button
+* Smooth progress animations
 
-### **Local Data Layer**
+### **➕ Add Habit / ✏️ Edit Habit**
 
-* Clean MVVM architecture
-* ViewModel + State
-* `MutableStateList` for real-time UI updates
-* Optional SharedPreferences for persistence
+* Dialogs with fields:
+
+  * Name
+  * Daily goal
+  * Icon picker (predefined icons)
+
+### **🗑 Swipe to Delete**
+
+* Material swipe gesture with delete reveal animation
+
+### **🔄 Reset System**
+
+* Reset daily progress to 0
+* Shows a confirmation Toast
+* UI updates with animation
+
+---
+
+## 📊 **Analytics Mini Dashboard**
+
+* Daily completion percentage
+* Best habit of the day
+* Streak counter
+---
+
+## 🎨 **Modern UI & UX**
+
+* Material 3 components
+* Smooth animations & transitions
+* Progress micro-interactions
+* Clean layout aligned with the existing app theme
+* Responsive across device sizes
+
+---
+
+## 🧩 **Architecture & Data Layer**
+
+* **MVVM architecture**
+* **ViewModel + State**
+* Managed using:
+
+  * `MutableStateList` or `ArrayList` (in-memory)
+* No database (placeholder for future storage)
+* Ready for Room/DataStore integration
 
 ---
 
@@ -66,22 +99,18 @@ This module is designed to be integrated easily into any Android app that needs 
 * **Kotlin**
 * **Jetpack Compose**
 * **Material 3**
-* **ViewModel + StateFlow**
+* **ViewModel / State**
 * **Navigation Compose**
 * **Coroutines**
-* **SharedPreferences (optional persistence)**
 
 ---
 
-## **How to Run**
+## 🚀 **How to Run**
 
-1. Clone the repository:
+```bash
+git clone https://github.com/your-username/DailyEase.git
+```
 
-   ```bash
-   git clone https://github.com/your-username/DailyEase.git
-   ```
-2. Open in **Android Studio Hedgehog or newer**
-3. Sync Gradle
-4. Run the app on an emulator or a physical device
-
----
+1. Open in **Android Studio Hedgehog or newer**
+2. Sync Gradle
+3. Run on an emulator or physical device
